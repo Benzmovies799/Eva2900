@@ -31,11 +31,13 @@ AUTH_GROUPS = [int(admin) for admin in environ.get("AUTH_GROUPS", "-100160196145
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://kumbi:kumbi@cluster0.plpa2bc.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "kumbipak")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001592680189'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Helpline_4u')
 
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<b>{file_caption} \n Size :- <i>{file_size}</i> \n Join [KUMBHIPAAKAM](https://telegram.me/MOVIES_SERIESUPDATES)</b> ")
+
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
