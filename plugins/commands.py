@@ -70,7 +70,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "💲 Get Access", url=invite_link.invite_link
+                    "💲 Get Access", url='https://telegram.me/movies_seriesupdates' #invite_link.invite_link
                 )
             ]
         ]
