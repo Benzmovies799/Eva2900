@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Channel', url='https://telegram.me/Movies_Arena_4u')
+                InlineKeyboardButton('🤖 Channel', url='https://telegram.me/movies_seriesupdates')
             ],
             [
                 InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -43,14 +43,14 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [
             [
-            InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/how_to_use_tmafilesbot/2')
+            InlineKeyboardButton('How To Use our Bot', url='https://t.me/movies_seriesupdates/390')
         ],[
-            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/Movies_Arena_4u'),
+            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/movies_seriesupdates'),
             InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/helpline_4u')
             ],[
                 InlineKeyboardButton('🔍 Search your movies here', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('💲 Donate us', url='https://telegram.me/keanureeevsbot')
+            InlineKeyboardButton('💲 Donate us', url='https://telegra.ph/file/1bf4ae9bd00500b5c4bb6.jpg')
             
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -92,14 +92,14 @@ async def start(client, message):
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [
             [
-             InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/how_to_use_tmafilesbot/2')
+             InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/movies_seriesupdates/390')
             ],[
-            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/Movies_Arena_4u'),
+            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/movies_seriesupdates'),
             InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/helpline_4u')
             ],[
                 InlineKeyboardButton('🔍 Search Movies Here', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('💲 Donate us', url='https://telegram.me/keanureeevsbot')
+            InlineKeyboardButton('💲 Donate us', url='https://telegra.ph/file/1bf4ae9bd00500b5c4bb6.jpg')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
