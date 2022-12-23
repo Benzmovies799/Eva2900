@@ -50,7 +50,7 @@ async def start(client, message):
             ],[
                 InlineKeyboardButton('🔍 Search your movies here', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('💲 Donate us', url='https://telegra.ph/file/1bf4ae9bd00500b5c4bb6.jpg')
+            InlineKeyboardButton('💲 Donate us', url='https://freeimage.host/i/HnEhImg')
             
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -70,7 +70,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "💲 Get Access", url='https://telegram.me/movies_seriesupdates' #invite_link.invite_link
+                    "💲 Get Access", url='https://t.me/+FOZ04zjYrTZhNjA1' #invite_link.invite_link
                 )
             ]
         ]
@@ -99,7 +99,7 @@ async def start(client, message):
             ],[
                 InlineKeyboardButton('🔍 Search Movies Here', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('💲 Donate us', url='https://telegra.ph/file/1bf4ae9bd00500b5c4bb6.jpg')
+            InlineKeyboardButton('💲 Donate us', url='https://freeimage.host/i/HnEhImg')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
