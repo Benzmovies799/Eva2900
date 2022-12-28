@@ -70,7 +70,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "💲 Get Access", url='https://t.me/+FOZ04zjYrTZhNjA1' #invite_link.invite_link
+                    "💲 Get Access", url=invite_link.invite_link
                 )
             ]
         ]
