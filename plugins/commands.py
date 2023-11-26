@@ -50,7 +50,7 @@ async def start(client, message):
             ],[
                 InlineKeyboardButton('🔍 Search your movies here', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('💲 Donate us', url='https://freeimage.host/i/HnEhImg')
+            InlineKeyboardButton('💲 Donate us', url='https://freeimage.host/i/JorWHfp')
             
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
