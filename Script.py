@@ -5,8 +5,8 @@ class script(object):
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝐁𝐨𝐭 𝐍𝐚𝐦𝐞: {}
 ✯ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 <a href=https://telegram.me/Helpline_4u>TMA Adda</a>
-✯ 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞  :- 𝐓𝐌𝐀 𝐂𝐥𝐨𝐮𝐝
-✯ 𝐁𝐨𝐭 𝐒𝐞𝐫𝐯𝐞𝐫 :- 𝐓𝐌𝐀 𝐒𝐞𝐫𝐯𝐞𝐫𝐬
+✯ 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞  :- MOVIES ARENA 𝐂𝐥𝐨𝐮𝐝
+✯ 𝐁𝐨𝐭 𝐒𝐞𝐫𝐯𝐞𝐫 :- MOVIES ARENA 𝐒𝐞𝐫𝐯𝐞𝐫𝐬
 ✯ 𝐁𝐨𝐭 𝐕𝐞𝐫𝐬𝐢𝐨𝐧:- 𝐕 𝟒.𝟏.𝟑
 """
     SOURCE_TXT = """<b>NOTE:</b>
@@ -14,13 +14,13 @@ class script(object):
 - Get Access - https://telegram.me/Helpline_4u 
 
 <b>DEVS:</b>
-- <a href=https://t.me/TMAAdda>Team @TMAAdda</a>"""
+- <a href=https://t.me/Movies_arena_4u>Team @Movies_arena_4u</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and our bot will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. TMA Files Bot should have admin privillage.
+1. KEANUREEEVS Files Bot should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
@@ -31,7 +31,7 @@ class script(object):
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- TMA Files Bot Supports both url and alert inline buttons.
+- KEANUREEEVES Files Bot Supports both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
@@ -39,7 +39,7 @@ class script(object):
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://telegram.me/TMAFilesBot)</code>
+<code>[Button Text](buttonurl:https://telegram.me/Keanureeevsbot)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
