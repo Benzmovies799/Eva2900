@@ -34,7 +34,7 @@ DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://tarunbandreddi6565:V54
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001942699601'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'benzmawabot')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '-1001745955640')
 
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<b>{file_caption} \n Size :- <i>{file_size}</i> \n Join [Benzmovies](https://telegram.me/Benzmovies)</b> ")
 
