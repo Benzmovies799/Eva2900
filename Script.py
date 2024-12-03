@@ -1,6 +1,6 @@
 class script(object):
     START_TXT = """<b>ʜᴇʟʟᴏ</b> {},
-<b>ɪ ᴀᴍ <a href=https://t.me/{}>{}</a>, ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴍᴏᴠɪᴇꜱ ʜᴇʀᴇ, ᴊᴜꜱᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴛʏᴘᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ. ᴛʜᴇ ʙᴏᴛ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ʀᴇꜱᴜʟᴛꜱ ᴀɴᴅ ꜱᴇʟᴇᴄᴛ ᴡʜɪᴄʜ ꜰɪʟᴇ ᴀɴᴅ ᴡʜɪᴄʜ ꜱɪᴢᴇ ʏᴏᴜ ᴡᴀɴᴛ😉😍</b> \n \n <b>𝐁𝐨𝐭 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐁𝐲 :- @Movies_Arena_4u \n 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 :- @Movies_Arena_4u</b>"""
+<b>ɪ ᴀᴍ <a href=https://t.me/{}>{}</a>, ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴍᴏᴠɪᴇꜱ ʜᴇʀᴇ, ᴊᴜꜱᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴛʏᴘᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ. ᴛʜᴇ ʙᴏᴛ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ʀᴇꜱᴜʟᴛꜱ ᴀɴᴅ ꜱᴇʟᴇᴄᴛ ᴡʜɪᴄʜ ꜰɪʟᴇ ᴀɴᴅ ᴡʜɪᴄʜ ꜱɪᴢᴇ ʏᴏᴜ ᴡᴀɴᴛ😉😍</b> \n \n <b>𝐁𝐨𝐭 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐁𝐲 :- @Benzmovies \n 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 :- @Benzmovies</b>"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝐁𝐨𝐭 𝐍𝐚𝐦𝐞: {}
@@ -20,7 +20,7 @@ class script(object):
 - Filter is the feature were users can set automated replies for a particular keyword and our bot will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. KEANUREEEVS Files Bot should have admin privillage.
+1. Benzmovies Files Bot should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
