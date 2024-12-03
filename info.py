@@ -17,7 +17,7 @@ BOT_TOKEN = '8000327637:AAEeM6nq1O755dX6Eq1yjBT6ztPNN8-xQOc' #(environ['BOT_TOKE
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
-PICS = (environ.get('PICS', 'https://telegra.ph/file/b27df166d116499e3cbcf.jpg')).split()
+PICS = (environ.get('PICS', 'https://envs.sh/P0O.jpg')).split()
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '957055438').split()]
@@ -34,7 +34,7 @@ DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://tarunbandreddi6565:V54
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001942699601'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '-1001745955640')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+veG2PpVpZQ03ZDYx')
 
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<b>{file_caption} \n Size :- <i>{file_size}</i> \n Join [Benzmovies](https://telegram.me/Benzmovies)</b> ")
 
