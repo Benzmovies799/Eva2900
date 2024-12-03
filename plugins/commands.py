@@ -94,7 +94,7 @@ async def start(client, message):
             [
              InlineKeyboardButton('How To Use our Bot', url='https://t.me/howtosolvelinks/4')
             ],[
-            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/benzmovies),
+            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/benzmovies'),
             InlineKeyboardButton('👥 Support Chat', url='https://benzmawabot')
             ],[
                 InlineKeyboardButton('🔍 Search Movies Here', switch_inline_query_current_chat='')
