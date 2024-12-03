@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Channel', url='https://telegram.me/movies_seriesupdates')
+                InlineKeyboardButton('🤖 Channel', url='https://telegram.me/benzmovies')
             ],
             [
                 InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -43,14 +43,14 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [
             [
-            InlineKeyboardButton('How To Use our Bot', url='https://t.me/movies_seriesupdates/390')
+            InlineKeyboardButton('How To Use our Bot', url='https://t.me/howtosolvelinks/4')
         ],[
-            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/movies_seriesupdates'),
-            InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/helpline_4u')
+            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/benzmovies'),
+            InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/benzmawabot')
             ],[
                 InlineKeyboardButton('🔍 Search your movies here', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('💲 Donate us', url='https://freeimage.host/i/JorWHfp')
+            InlineKeyboardButton('💲 Donate us', url='https://graph.org/file/d0fa8e629889b37eeb8c5.jpg')
             
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -92,14 +92,14 @@ async def start(client, message):
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [
             [
-             InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/movies_seriesupdates/390')
+             InlineKeyboardButton('How To Use our Bot', url='https://t.me/howtosolvelinks/4')
             ],[
-            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/movies_seriesupdates'),
-            InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/helpline_4u')
+            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/benzmovies),
+            InlineKeyboardButton('👥 Support Chat', url='https://benzmawabot')
             ],[
                 InlineKeyboardButton('🔍 Search Movies Here', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('💲 Donate us', url='https://freeimage.host/i/HnEhImg')
+            InlineKeyboardButton('💲 Donate us', url='https://graph.org/file/d0fa8e629889b37eeb8c5.jpg')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
