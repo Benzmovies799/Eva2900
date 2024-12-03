@@ -2,7 +2,7 @@
   <img src="https://envs.sh/P0O.jpg" alt="B E N Z F I L E S">
 </p>
 <h1 align="center">
-  <b>Benz Files Bot</b>
+  <b>B E N Z F I L E S</b>
 </h1>
 
 
