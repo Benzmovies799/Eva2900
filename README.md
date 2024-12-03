@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="assets/logo.jpg" alt="Eva Maria Logo">
+  <img src="https://envs.sh/P0O.jpg" alt="B E N Z F I L E S">
 </p>
 <h1 align="center">
-  <b>Eva Maria Bot</b>
+  <b>Benz Files Bot</b>
 </h1>
 
 
@@ -43,7 +43,7 @@
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-Contact :- https://www.telegram.me/tmasupportbot
+Contact :- https://www.telegram.me/benzmawabot
 </pre>
 </p>
 </details>
