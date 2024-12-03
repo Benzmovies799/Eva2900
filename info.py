@@ -36,6 +36,11 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001942699601'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+veG2PpVpZQ03ZDYx')
 
+# Shortlink Info
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Shrinkearn.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '55f4c7d964ebb8ef7bf3dda75185e4aca870c285')
+
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<b>{file_caption} \n Size :- <i>{file_size}</i> \n Join [Benzmovies](https://telegram.me/Benzmovies)</b> ")
 
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
