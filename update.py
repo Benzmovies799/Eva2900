@@ -4,7 +4,7 @@ from os import path as ospath, environ
 from subprocess import run as srun
 from requests import get as rget
 
-UPSTREAM_REPO = "https://github.com/Anubisop17/kumbipak"#environ.get('UPSTREAM_REPO')
+UPSTREAM_REPO = "https://github.com/Benzmovies799/Eva2900"#environ.get('UPSTREAM_REPO')
 UPSTREAM_BRANCH = "master" 
 try:
     if len(UPSTREAM_REPO) == 0:
@@ -22,8 +22,8 @@ if UPSTREAM_REPO is not None:
         srun(["rm", "-rf", ".git"])
 
     update = srun([f"git init -q \
-                     && git config --global user.email e.nteja2220@gmail.com \
-                     && git config --global user.name kangscripter \
+                     && git config --global user.email benznight207@gmail.com \
+                     && git config --global user.name benzmovies799 \
                      && git add . \
                      && git commit -sm update -q \
                      && git remote add origin {UPSTREAM_REPO} \
