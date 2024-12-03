@@ -4,17 +4,17 @@ class script(object):
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝐁𝐨𝐭 𝐍𝐚𝐦𝐞: {}
-✯ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 <a href=https://telegram.me/Helpline_4u>TMA Adda</a>
-✯ 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞  :- MOVIES ARENA 𝐂𝐥𝐨𝐮𝐝
-✯ 𝐁𝐨𝐭 𝐒𝐞𝐫𝐯𝐞𝐫 :- MOVIES ARENA 𝐒𝐞𝐫𝐯𝐞𝐫𝐬
+✯ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 <a href=https://telegram.me/benzmawabot>Benzmawa</a>
+✯ 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞  :- Benzmovies 𝐂𝐥𝐨𝐮𝐝
+✯ 𝐁𝐨𝐭 𝐒𝐞𝐫𝐯𝐞𝐫 :- Benzmovies 𝐒𝐞𝐫𝐯𝐞𝐫𝐬
 ✯ 𝐁𝐨𝐭 𝐕𝐞𝐫𝐬𝐢𝐨𝐧:- 𝐕 𝟒.𝟏.𝟑
 """
     SOURCE_TXT = """<b>NOTE:</b>
 - our bot is a private. 
-- Get Access - https://telegram.me/Helpline_4u 
+- Get Access - https://telegram.me/benzmawabor 
 
 <b>DEVS:</b>
-- <a href=https://t.me/Movies_arena_4u>Team @Movies_arena_4u</a>"""
+- <a href=https://t.me/benzmovies>Team @benzmawabota>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and our bot will respond whenever a keyword is found the message
@@ -31,15 +31,15 @@ class script(object):
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- KEANUREEEVES Files Bot Supports both url and alert inline buttons.
+- Benzmovies Files Bot Supports both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. TMA Files Bot supports buttons with any telegram media type.
+2. Benzmovies Files Bot supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://telegram.me/Keanureeevsbot)</code>
+<code>[Button Text](buttonurl:https://telegram.me/benzmawabot)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
@@ -96,7 +96,7 @@ This module only works for my admins
 ★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
 ★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
 
-★ Powered BY @Movies_arena_4u"""
+★ Powered BY @Benzmovies"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
