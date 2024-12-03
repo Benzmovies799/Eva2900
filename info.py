@@ -10,9 +10,9 @@ def is_enabled(value, default):
         return default
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = 18729425 #int(environ['API_ID'],5540967)
-API_HASH = 'a1ba6712731b122ca1f8f08a4e1b9cb7'#(environ['API_HASH'],'eedf0196b0533f361b51b5b7082358e9')
-BOT_TOKEN = '2042868396:AAGBHpoqJzNpXvo6fR0tqPHB-aUBofZJkaw' #(environ['BOT_TOKEN'],'1877486792:AAGr4aoWtD_31Qh9GGnMnV2kUNYPqSxQSkY')
+API_ID = 16582302 #int(environ['API_ID'],5540967)
+API_HASH = '336ae5acc37e4031e98ca682557cca66'#(environ['API_HASH'],'eedf0196b0533f361b51b5b7082358e9')
+BOT_TOKEN = '8000327637:AAEeM6nq1O755dX6Eq1yjBT6ztPNN8-xQOc' #(environ['BOT_TOKEN'],'1877486792:AAGr4aoWtD_31Qh9GGnMnV2kUNYPqSxQSkY')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -20,30 +20,30 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 PICS = (environ.get('PICS', 'https://telegra.ph/file/b27df166d116499e3cbcf.jpg')).split()
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5170995259 2068711372').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', "-1001785770847 -1001891622347 -1001532145811 -1001549984272 -1001530261377 -1001780510030 -1001374485034 -1001460012559").split()]
-auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '5170995259').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '957055438').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', " -1001830080813").split()]
+auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '957055438').split()]
 
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL','-1001505294843')
+auth_channel = environ.get('AUTH_CHANNEL','-1001830080813')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else auth_channel
-AUTH_GROUPS = [int(admin) for admin in environ.get("AUTH_GROUPS", "-1001601961451").split()]
+AUTH_GROUPS = [int(admin) for admin in environ.get("AUTH_GROUPS", "-1001745955640").split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://NP:NP@cluster0.igza7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "myFirstDatabase")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://tarunbandreddi6565:V54QO25A72PicCfv@cluster0.x0u97.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001592680189'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Helpline_4u')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001942699601'))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'benzmawabot')
 
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<b>{file_caption} \n Size :- <i>{file_size}</i> \n Join [KUMBHIPAAKAM](https://telegram.me/MOVIES_SERIESUPDATES)</b> ")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<b>{file_caption} \n Size :- <i>{file_size}</i> \n Join [Benzmovies](https://telegram.me/Benzmovies)</b> ")
 
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<b>{file_caption} \n Size :- <i>{file_size}</i> \n Join [KUMBHIPAAKAM](https://telegram.me/MOVIES_SERIESUPDATES)</b> ")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<b>{file_caption} \n Size :- <i>{file_size}</i> \n Join [Benzmovies](https://telegram.me/Benzmovies)</b> ")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "Hey {message.from_user.mention}, \n Here is the result for your {query} \n <b>🏷 Title</b>: <a href={url}>{title}</a> \n 📆 Year: <a href={url}/releaseinfo>{year}</a> \n 🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.) \n ☀️ Languages : <code>{languages}</code> \n 📀 RunTime: {runtime} Minutes \n 📆 Release Info : {release_date} \n 🎛 Countries : <code>{countries}</code> \n \n Requested by : {message.from_user.mention} \n Powered By @MOVIES_ARENA_4U")
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "Hey {message.from_user.mention}, \n Here is the result for your {query} \n <b>🏷 Title</b>: <a href={url}>{title}</a> \n 📆 Year: <a href={url}/releaseinfo>{year}</a> \n 🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.) \n ☀️ Languages : <code>{languages}</code> \n 📀 RunTime: {runtime} Minutes \n 📆 Release Info : {release_date} \n 🎛 Countries : <code>{countries}</code> \n \n Requested by : {message.from_user.mention} \n Powered By @Benzmovies")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "True"), True)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "False"), False)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
